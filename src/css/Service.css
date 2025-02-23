@@ -1,0 +1,72 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h2.section-title {
+    text-align: center;
+    color: #ff6600;
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  h3.section-subtitle {
+    color: #ff6600;
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+  }
+  
+  .content-section {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background-color: #fff;
+    border: 2px solid #ff6600;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .service-info p,
+  .catering-info p {
+    text-align: justify;
+    margin: 10px 0;
+  }
+  
+  .menu-list {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  
+  .menu-item {
+    padding: 15px;
+    border: 1px solid #ff6600;
+    border-radius: 6px;
+    background-color: #fefefe;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  .menu-item h3 {
+    margin-bottom: 10px;
+    color: #ff6600;
+  }
+  
+  .menu-item p {
+    margin: 0;
+    text-align: justify;
+  }
+  
+  .footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #ff6600;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  

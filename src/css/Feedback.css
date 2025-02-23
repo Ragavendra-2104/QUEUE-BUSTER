@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+    background-image: url('/assets/images/supportbg.jpg');
+    background-size: cover;
+    background-attachment: scroll;
+}
+
+.feedback-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.content-section {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.feedback-title {
+    text-align: center;
+    font-weight: 600;
+    color: #282d2b;
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.feedback-info p {
+    color: black;
+    text-align: center;
+    font-size: 16px;
+}
+
+.feedback-video {
+    width: 70%;  /* Adjust width */
+    max-width: 500px;  /* Limit max width */
+    height: 300px;  /* Set fixed height */
+    object-fit: cover;  /* Ensures the video fits within dimensions */
+    display: block;
+    margin: 15px auto;
+    border-radius: 6px;
+}
+
+.feedback-form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.feedback-label {
+    font-weight: 600;
+    color: #282d2b;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.feedback-textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    margin-bottom: 15px;
+}
+
+.feedback-submit {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    align-self: center;
+    font-size: 16px;
+}
+
+.feedback-submit:hover {
+    background-color: #45a049;
+}
+
+.feedback-footer {
+    font-size: 20px;
+    color: yellowgreen;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border-radius: 8px;
+    animation: moveText 10s linear infinite;
+}
+
+@keyframes moveText {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(100%);
+    }
+}

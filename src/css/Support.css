@@ -1,0 +1,28 @@
+.container {
+    max-width: 700px; /* Reduce the width */
+    margin: 0 auto;
+    padding: 15px; /* Reduce padding */
+  }
+  
+  .content-section {
+    background: linear-gradient(to bottom, rgba(180, 228, 241, 0.8), rgba(255, 255, 255, 0.8));
+    padding: 15px; /* Reduce padding */
+    margin-bottom: 20px; /* Reduce margin */
+    border-radius: 6px; /* Slightly smaller radius */
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* Lighter shadow */
+    animation: slide-in 0.8s ease-in-out;
+  }
+  
+  .faqs-info, .troubleshooting-info {
+    display: flex; /* Use flexbox */
+    flex-direction: column;
+    gap: 15px; /* Reduce spacing */
+  }
+  
+  .faqs-info div, .troubleshooting-info div {
+    border: 1px solid #0e0f0f;
+    border-radius: 6px;
+    padding: 15px; /* Reduce padding */
+    background: linear-gradient(to bottom, rgba(226, 231, 231, 0.8), rgba(255, 255, 255, 0.8));
+  }
+  
